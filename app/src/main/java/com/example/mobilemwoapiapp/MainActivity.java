@@ -21,13 +21,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnstart = findViewById(R.id.btn_start);
         tvstarus = findViewById(R.id.status_text);
 
-        btnstart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        btnstart.setOnClickListener(view -> {
+            //ttesttag
 
-
-
-            }
         });
     }
 
